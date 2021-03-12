@@ -1,7 +1,7 @@
 .header{
     display: flex;/*deixa na mesma linha*/
     justify-content: space-between;/** da espaçamento entre os itens*/
-    background-color:#CCDD0D;
+    background-color:#b78be6;
     border-bottom: 10px solid #000;
     padding:10px 20px;
 }
