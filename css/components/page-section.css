@@ -18,8 +18,11 @@
 }
 
 .page-section.-bdBlack{
-    border-bottom: 10px solid #000;
+    border-color:  #000;
 }
 .page-section.-bdFirst{
-    border-bottom:10px solid #F25A70;
+    border-color:10px solid #F25A70;
+}
+.page-section.-no-paddingBt{
+    padding-bottom: 0px;
 }

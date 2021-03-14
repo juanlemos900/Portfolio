@@ -4,11 +4,6 @@
     <meta charset="UTF-8">
     <title>Juan Lemos</title>
 
-    <script>
-        JAVASCRIPT IS USUALLY PLACED HERE
-        window.location = "#wall-1";
-    </script>
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/resetcss.css">
@@ -23,10 +18,12 @@
     <link rel="stylesheet" href="css/components/skill-tec.css">
     <link rel="stylesheet" href="css/components/page-section.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
-    <link rel="stylesheet" href="css/components/img-project.css">
-    <link rel="stylesheet" href="css/components/wrapper-card.css">
-    <link rel="stylesheet" href="css/components/about-me.css">
+    <link rel="stylesheet" href="css/components/card-project.css">
+    <link rel="stylesheet" href="css/components/main-description.css">
     <link rel="stylesheet" href="css/components/test.css">
+    <link rel="stylesheet" href="css/components/button-arrow.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
 </head>
 <body>
     <header class="header-section">
@@ -86,23 +83,57 @@
     </section>
     <section class="page-section -bgBlack -bdFirst">
         <h2 class="main-title -second">Projetos</h2>
-        <div class="wrapper-car">
+        <div class="test">
             <a href="https://www.firedlabs.com" target="_blank">
                 <img class="card-project" src="assets/img/logo-firedlabs.png" alt="Logo Firedlabs">
             </a>
             <a href="https://juanlemos900.github.io/curso-html-css-feliz/">
                 <img class="card-project -portifolio" src="assets/img/logo.jpg" alt="Portifólio">
             </a>
-        </div>
+    </div>
     </section>
-    <section class="page-section -bgPink -bdBlack">
+    <section class="page-section -no-paddingBt -bgPink -bdBlack">
         <h2 class="main-title -second">Sobre</h2>
-        <p class="about-me"> 
+        
+        <section class="main-carousel">
+            <button class="button-arrow -left"><span class="content">Avançar</span></button>
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo -second">
+                            <img src="assets/img/logo-locaweb.png" alt="Logo Locaweb">
+                        </div>
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2016</figcaption>
+                        <div class="logo">
+                            <img src="assets/img/logo-getninjas.png" alt="Logo Getninjas">
+                        </div>
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo -second">
+                            <img src="assets/img/logo-impulso.png" alt="Logo Impulso">
+                        </div>
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2019</figcaption>
+                        <div class="logo">
+                            <img src="assets/img/logo-collabcode.png" alt="Logo CollabCode">
+                        </div>
+                    </figure>
+                </div>  
+            </div>
+            <button class="button-arrow -rigth"><span class="content">Voltar</span></button>
+        </section>
+        <p class="main-description"> 
             Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas.
             Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre.
             Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR,
             escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
         </p>
     </section>
+    <script src="js/components/main-carousel.js"></script>
 </body>
 </html>
