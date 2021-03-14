@@ -1,0 +1,25 @@
+.page-section{
+    background-color:#b78be6;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom:10px solid #7C5E99;
+}
+
+.page-section .main-title{
+    margin-bottom: 60px;
+}
+
+.page-section.-bgBlack{
+    background-color: #000;
+}
+
+.page-section.-bgPink{
+    background-color: #F25A70;
+}
+
+.page-section.-bdBlack{
+    border-bottom: 10px solid #000;
+}
+.page-section.-bdFirst{
+    border-bottom:10px solid #F25A70;
+}

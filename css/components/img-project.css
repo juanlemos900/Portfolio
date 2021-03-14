@@ -1,0 +1,13 @@
+.card-project{
+    box-sizing: border-box;
+    background-color: #7C5E99;
+    box-shadow: 10px 10px 0px #fff;
+    height: 280px;
+    width: 280px;
+    padding: 17px 43px 18px 27px;
+    margin-left: 150px;
+}
+
+.card-project.-portifolio{
+    background-color: #a73333;
+}

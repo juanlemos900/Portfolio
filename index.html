@@ -4,46 +4,55 @@
     <meta charset="UTF-8">
     <title>Juan Lemos</title>
 
+    <script>
+        JAVASCRIPT IS USUALLY PLACED HERE
+        window.location = "#wall-1";
+    </script>
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/resetcss.css">
-    <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/action.css">
+    <link rel="stylesheet" href="css/components/header-section.css">
+    <link rel="stylesheet" href="css/components/action-bar.css">
     <link rel="stylesheet" href="css/components/main-title.css">
-    <link rel="stylesheet" href="css/components/subtitle.css">
-    <link rel="stylesheet" href="css/components/box.css">
-    <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/banner.css">
+    <link rel="stylesheet" href="css/components/main-subtitle.css">
+    <link rel="stylesheet" href="css/components/box-banner.css">
+    <link rel="stylesheet" href="css/components/button-link.css">
+    <link rel="stylesheet" href="css/components/banner-section.css">
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
     <link rel="stylesheet" href="css/components/skill-tec.css">
-    <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/page-section.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/img-project.css">
+    <link rel="stylesheet" href="css/components/wrapper-card.css">
+    <link rel="stylesheet" href="css/components/about-me.css">
+    <link rel="stylesheet" href="css/components/test.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header-section">
         <img src="assets/img/logo.jpg" height="60" width="60" alt="Logo Juan">
         <nav>
-          <a class="action" href="" lang="en"><span></span>Skills</a>
-          <a class="action" href=""><span></span>Projetos</a>
-          <a class="action" href=""><span></span>Sobre</a>
-          <a class="action" href=""><span></span>Contatos</a>
-          <a class="button" href="" lang="en">Download CV</a>
+          <a class="action-bar" href="" lang="en"><span></span>Skills</a>
+          <a class="action-bar" href=""><span></span>Projetos</a>
+          <a class="action-bar" href=""><span></span>Sobre</a>
+          <a class="action-bar" href=""><span></span>Contatos</a>
+          <a class="button-link" href="" lang="en">Download CV</a>
         </nav>
     </header>
 
-    <section class="banner">
+    <section class="banner-section">
         <div class="wrapper">
-            <div class="box">
+            <div class="box-banner">
                 <h1 class="main-title">Juan Lemos</h1>
-                <h2 class="subtitle">FrontEnd developer</h2>
+                <h2 class="main-subtitle">FrontEnd developer</h2>
             </div>
             <div class="navigation">
-                <a class="button" href="" lang="en">Download CV</a>
-                <a class="button" href="">Contatos</a>
+                <a class="button-link" href="" lang="en">Download CV</a>
+                <a class="button-link" href="">Contatos</a>
             </div>
         </div>
     </section>
-    <section class="section">
+    <section class="page-section">
         <h2 class="main-title -second">Skills</h2>
 
         <div class="wrapper-skill">
@@ -74,7 +83,26 @@
                     </progress>
                 </div>
             </article>
-    </div>
+    </section>
+    <section class="page-section -bgBlack -bdFirst">
+        <h2 class="main-title -second">Projetos</h2>
+        <div class="wrapper-car">
+            <a href="https://www.firedlabs.com" target="_blank">
+                <img class="card-project" src="assets/img/logo-firedlabs.png" alt="Logo Firedlabs">
+            </a>
+            <a href="https://juanlemos900.github.io/curso-html-css-feliz/">
+                <img class="card-project -portifolio" src="assets/img/logo.jpg" alt="Portifólio">
+            </a>
+        </div>
+    </section>
+    <section class="page-section -bgPink -bdBlack">
+        <h2 class="main-title -second">Sobre</h2>
+        <p class="about-me"> 
+            Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas.
+            Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre.
+            Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR,
+            escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
+        </p>
     </section>
 </body>
 </html>

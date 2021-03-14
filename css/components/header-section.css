@@ -1,4 +1,4 @@
-.header{
+.header-section{
     display: flex;/*deixa na mesma linha*/
     justify-content: space-between;/** da espaçamento entre os itens*/
     background-color:#b78be6;
