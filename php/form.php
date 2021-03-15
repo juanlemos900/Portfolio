@@ -3,7 +3,7 @@
 if(isset($_POST['email'])) && !empty($_POST['email']){
 
 
-$nome = addcslashes($_POST['name']);
+$name = addcslashes($_POST['name']);
 $email = addcslashes($_POST['email']);
 $message = addcslashes($_POST['message']);
 
@@ -11,11 +11,11 @@ $message = addcslashes($_POST['message']);
 
 $to = "juan900.lemos@gmail.com";
 $subject = " Contato - Portifólio";
-$body = "Nome: ".$nome."\n".
-        "Email: "$email."\n".
+$body = "Nome: ".$name. "r\n".
+        "Email: "$email."\r\n".
         "Mensagem"$message;
 $header = "From:juanlemos.dev@gmail.com"."\r\n".
-        "Replay-To:".$email."\r"\"n".
+        "Replay-To:".$email."\r\n".
         "X=Mailer:PHP/".phpversion();
 
 if(mail($to,$subject,$body,$header)){
