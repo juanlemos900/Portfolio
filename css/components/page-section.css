@@ -12,7 +12,9 @@
 .page-section.-bgBlack{
     background-color: #000;
 }
-
+.page-section.-bgGrey{
+    background-color: #3A4042;
+}
 .page-section.-bgPink{
     background-color: #F25A70;
 }
@@ -25,4 +27,8 @@
 }
 .page-section.-no-paddingBt{
     padding-bottom: 0px;
+}
+
+.page-section.-no-border{
+    border: none;
 }

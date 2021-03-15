@@ -1,0 +1,11 @@
+.social-media{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    position: relative;
+    bottom: 0px;
+    height: 100px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}

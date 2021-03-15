@@ -13,3 +13,7 @@
 .button-link:hover{
     transform: scale(1.08);
 }
+
+.button-link.-submit{
+    width: 100%;
+}

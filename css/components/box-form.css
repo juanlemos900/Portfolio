@@ -1,0 +1,8 @@
+.box-form{
+    height: 50px;
+    width: 100%;
+    border: 5px solid #000;
+}
+.box-form.-message{
+    height: 368px;
+}

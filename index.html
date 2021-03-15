@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
+    <link rel="stylesheet" href="css/components/social-media.css">
+    <link rel="stylesheet" href="css/components/img-social.css">
+    <link rel="stylesheet" href="css/components/wrapper-form.css">
+    <link rel="stylesheet" href="css/components/text-form.css">
+    <link rel="stylesheet" href="css/components/box-form.css">
 </head>
 <body>
     <header class="header-section">
@@ -135,5 +140,27 @@
         </p>
     </section>
     <script src="js/components/main-carousel.js"></script>
+    <section class="page-section -bgGrey -no-paddingBt -no-border">
+        <h2 class="main-title -second">Contatos</h2>
+        <div class="wrapper-form">
+            <form class="text-form" method="POST" action="php/form.php">
+                Nome:</br>
+                <input class="box-form" type="text" name="name"></br>
+                Email:</br>
+                <input class="box-form" type="email" name="email"></br>
+                Mensagem:</br> 
+                <textarea class="box-form -message" name="message" placeholder="Digite sua mensagem aqui"></textarea>
+                <input class="button-link -submit" type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="social-media">
+            <a class="img-social" href="https://twitter.com/NBombado" target="_blank">
+                <img  src="assets/img/twitter 1.png" alt="Logo twitter">
+            </a>
+            <a class="img-social" href="https://discord.gg/ugbfycmAKG" target="_blank">
+                <img src="assets/img/discord 1.png" alt="Logo discord">
+            </a>
+        </div>
+    </section>
 </body>
 </html>
