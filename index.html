@@ -24,11 +24,11 @@
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
-    <link rel="stylesheet" href="css/components/social-media.css">
-    <link rel="stylesheet" href="css/components/img-social.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/wrapper-form.css">
-    <link rel="stylesheet" href="css/components/text-form.css">
-    <link rel="stylesheet" href="css/components/box-form.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
 </head>
 <body>
     <header class="header-section">
@@ -139,27 +139,26 @@
         </p>
     </section>
     <script src="js/components/main-carousel.js"></script>
-    <section class="page-section -bgGrey -no-paddingBt -no-border">
-        <h2 class="main-title -second">Contatos</h2>
-        <div class="wrapper-form">
-            <form class="text-form">
-                Nome:</br>
-                <input class="box-form" type="text" name="name" placeholder="Digite seu nome aqui"></br>
-                Email:</br>
-                <input class="box-form" type="email" name="email" placeholder="Digite seu email aqui"></br>
-                Mensagem:</br> 
-                <textarea class="box-form -message" name="message" placeholder="Digite sua mensagem aqui"></textarea>
+            <form class="main-form">
+                <legend class="main-title -second">Contatos</legend>
+                <label class="main-label" for="name">Nome:</label></br>
+                <input class="main-input"  id="name" type="text" name="name" required></br>
+
+                <label class="main-label" for="email"> Email:</label></br>
+                <input class="main-input"  id="email" type="email" name="email" required></br>
+
+                <label class="main-label" for="message">Mensagem</label></br> 
+                <textarea class="main-input -message" id="message" name="message" required></textarea>
+
+                <button type="submit" class="button-link -submit">Enviar</button>
             </form>
-            <button class="button-link -submit">Enviar</button>
-        </div>
-        <div class="social-media">
-            <a class="img-social" href="https://twitter.com/NBombado" target="_blank">
+        <footer class="main-footer">
+            <a class="action" href="https://twitter.com/NBombado" target="_blank">
                 <img  src="assets/img/twitter 1.png" alt="Logo twitter">
             </a>
-            <a class="img-social" href="https://discord.gg/ugbfycmAKG" target="_blank">
+            <a class="action" href="https://discord.gg/ugbfycmAKG" target="_blank">
                 <img src="assets/img/discord 1.png" alt="Logo discord">
             </a>
-        </div>
-    </section>
+        </footer>
 </body>
 </html>

@@ -1,11 +1,12 @@
-.social-media{
-    box-sizing: border-box;
+.main-footer{
     display: flex;
     justify-content: center;
     background-color: #000;
-    position: relative;
-    bottom: 0px;
-    height: 100px;
     padding-top: 28px;
     padding-bottom: 28px;
+}
+
+.main-footer .action{
+    margin-right: 20px;
+    margin-left: 20px;
 }
