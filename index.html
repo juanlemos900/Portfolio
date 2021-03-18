@@ -139,7 +139,7 @@
         </p>
     </section>
     <script src="js/components/main-carousel.js"></script>
-            <form action="php/form.php" method="POST" class="main-form">
+            <form method="GET" class="main-form">
                 <legend id="contatos" class="main-title -second">Contatos</legend>
                 <label class="main-label" for="name">Nome:</label></br>
                 <input class="main-input"  id="name" type="text" name="name" required></br>
@@ -150,7 +150,7 @@
                 <label class="main-label" for="message">Mensagem</label></br> 
                 <textarea class="main-input -message" id="message" name="message" required></textarea>
 
-                <button type="submit" class="button-link -submit">Enviar</button>
+                <button type="submit" class="button-link -submit" onclick="Enviar();">Enviar</button>
             </form>
         <footer class="main-footer">
             <a class="action" href="https://twitter.com/NBombado" target="_blank">
@@ -160,5 +160,6 @@
                 <img src="assets/img/discord 1.png" alt="Logo discord">
             </a>
         </footer>
+    <script src="js/components/main-form.js"></script>
 </body>
 </html>
