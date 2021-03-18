@@ -34,11 +34,11 @@
     <header class="header-section">
         <img src="assets/img/logo.jpg" height="60" width="60" alt="Logo Juan">
         <nav>
-          <a class="action-bar" href="" lang="en"><span></span>Skills</a>
-          <a class="action-bar" href=""><span></span>Projetos</a>
-          <a class="action-bar" href=""><span></span>Sobre</a>
-          <a class="action-bar" href=""><span></span>Contatos</a>
-          <a class="button-link" href="" lang="en">Download CV</a>
+          <a class="action-bar" href="#skills" lang="en"><span></span>Skills</a>
+          <a class="action-bar" href="#projetos"><span></span>Projetos</a>
+          <a class="action-bar" href="#sobre"><span></span>Sobre</a>
+          <a class="action-bar" href="#contatos"><span></span>Contatos</a>
+          <a class="button-link" href="assets/files/Currículo.pdf" download="Currículo.pdf" lang="en">Download CV</a>
         </nav>
     </header>
 
@@ -49,13 +49,13 @@
                 <h2 class="main-subtitle">FrontEnd developer</h2>
             </div>
             <div class="navigation">
-                <a class="button-link" href="" lang="en">Download CV</a>
-                <a class="button-link" href="">Contatos</a>
+                <a class="button-link" href="assets/files/Currículo.pdf" download="Currículo.pdf" lang="en">Download CV</a>
+                <a class="button-link" href="#contatos">Contatos</a>
             </div>
         </div>
     </section>
     <section class="page-section">
-        <h2 class="main-title -second">Skills</h2>
+        <h2 id="skills" class="main-title -second">Skills</h2>
 
         <div class="wrapper-skill">
             <article class="skill-tec">
@@ -87,7 +87,7 @@
             </article>
     </section>
     <section class="page-section -bgBlack -bdFirst">
-        <h2 class="main-title -second">Projetos</h2>
+        <h2 id="projetos" class="main-title -second">Projetos</h2>
         <div class="wrapper-card">
             <a href="https://issuu.com/jornaldoifnmg/docs/revista_conta__o_nr4/148" target="_blank">
                 <img class="card-project" src="assets/img/logo-if.png" alt="Logo If">
@@ -98,7 +98,7 @@
     </div>
     </section>
     <section class="page-section -no-paddingBt -bgPink -bdBlack">
-        <h2 class="main-title -second">Sobre</h2>
+        <h2 id="sobre" class="main-title -second">Sobre</h2>
         
         <section class="main-carousel">
             <button class="button-arrow -left"><span class="content">Avançar</span></button>
@@ -140,7 +140,7 @@
     </section>
     <script src="js/components/main-carousel.js"></script>
             <form class="main-form">
-                <legend class="main-title -second">Contatos</legend>
+                <legend id="contatos" class="main-title -second">Contatos</legend>
                 <label class="main-label" for="name">Nome:</label></br>
                 <input class="main-input"  id="name" type="text" name="name" required></br>
 
