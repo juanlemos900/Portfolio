@@ -1,5 +1,5 @@
 .main-carousel{
-    display: flex;
+    display: none;/*trocar por flex pra exibir carroseul*/
     position: relative;
     padding-left: 85px;
     padding-right: 85px;
